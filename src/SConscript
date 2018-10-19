@@ -3,6 +3,7 @@ print("----->Start of SConscript")
 Import('env')
 
 env.Example('file1.exin')
+env.Example2('file1.example')
 
 
 print("----->End of SConscript")
