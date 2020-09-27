@@ -12,7 +12,7 @@ def _example_scanner(node, env, path):
 
     return []
 
-def _example_target_scanner(example_target_scanner):
+def _example_target_scanner(node, env, path):
     print("In Tool example _example_target_scanner(%s, env, %s) [Environment:%s]"%(
         str(node), path, env.get('ENV_NAME','Unknown')))
     return []
